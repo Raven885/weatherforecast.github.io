@@ -1,0 +1,14 @@
+
+table{
+    position: relative;
+    table-layout: fixed;
+    border-color: blue;
+    margin: auto;
+    bottom:30px;
+    
+}
+th{
+    color: black;
+    background-color: beige;
+    border-top: 1px solid #000;
+}

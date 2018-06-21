@@ -1,0 +1,63 @@
+*{
+    margin: 0;
+    }
+.header{
+    position: relative;
+    text-align: center;
+    border: 1px double white;
+    background-color: rgba(0,0,0,.3);
+    width: 100%;
+    max-width: 100%;
+    max-height: 30%;
+    min-width: 200px;
+    min-height: 10px;
+}
+h1{
+    position: relative;
+    color: chartreuse;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif ;
+}
+h3{
+    color: green;
+    text-decoration: underline;
+}
+body{
+    background-image: url(../Images/oboi-na-stol.com-260274-peyzazhi-eli-les-gory-priroda-derevya.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    min-width: 200px;
+    min-height: 800px;
+}
+.text{
+    position: relative;
+    margin-left: 30%;
+}
+p{
+    position: relative;
+    width: 40%;
+    color: greenyellow;
+    font-size: 330%;
+}
+#City{
+    height: 25px;
+}
+#WeatherHere{
+    position: relative;
+    margin-left: 40%;
+    bottom: 40px;
+    font-weight: 700;
+    color: white;
+    text-decoration: none;
+    padding: .8em 1em calc(.8em + 3px);
+    border-radius: 3px;
+    background: rgb(64,199,129);
+    box-shadow: 0 -3px rgb(53,167,110) inset;
+    transition: 0.2s;
+}
+#WeatherHere:hover{
+    background: rgb(53, 167, 110); 
+}
+#WeatherHere:active{
+    background: rgb(33,147,90);
+    box-shadow: 0 3px rgb(33,147,90) inset;
+}
